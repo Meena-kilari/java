@@ -10,11 +10,12 @@ public class ArrayListImplementation {
         list.addFirst(5);
         list.addLast(40);
         System.out.println("Size: " + list.size());
-        System.out.println("Contains 20? " + list.contains(20));
-        System.out.println("Contains 99? " + list.contains(99));
+        System.out.println("Contains 20 or not : " + list.contains(20));
+        System.out.println("Contains 99 or not : " + list.contains(99));
         list.remove(2);
-        System.out.println("Size after remove: " + list.size());
+        System.out.println("Size after removing an element : " + list.size());
         list.add(2, 99);
-        System.out.println("Size after insert: " + list.size());
+        System.out.println("Size after insert an element : " + list.size());
     }
 }
+
