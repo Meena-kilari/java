@@ -15,7 +15,8 @@ public class ArrayListImplementation {
         list.remove(2);
         System.out.println("Size after removing an element : " + list.size());
         list.add(2, 99);
-        System.out.println("Size after insert an element : " + list.size());
+        System.out.println("Size after inserting an element : " + list.size());
     }
 }
+
 
